@@ -122,7 +122,7 @@ $(document).ready(function () {
             };
 
             $.ajax({
-                url: 'http://tkr.od.ua/ajaxlogin/',
+                url: '/ajaxlogin/',
                 type: "POST",
                 data: JSON.stringify(data),
                 dataType: "json",
